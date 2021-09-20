@@ -20,6 +20,8 @@ Your solution should meet all these requirements.
 
   For each question, the selected option ID or the entered text is submitted.
 
+- [ ] Validate the submitted answers (question and option IDs are correct, question types match, ...)
+
 - [ ] Print the answers to stdout in a machine-readable format (JSON, CSV, ...)
 
   For simplicity we can assume that stdout is written to a log file, which is then later processed.
