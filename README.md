@@ -2,7 +2,7 @@
 
 The goal of this assignment is to see how familiar you are with Go, JavaScript and React. We tried to pick a task that is similar to what you would do at Toggl Hire, while keeping it minimal so you can finish it in a short time.
 
-You are provided with a simple application that consists of two projects. The server is a GraphQL API that returns a list of test questions. Questions can be either choice questions or test questions. Choice questions have a number of options, while text questions do not. You can see the full schema in [schema.graphqls](server/graph/schema.graphqls). The client is a React app that uses the API to fetch the questions and renders them as JSON. You can find the details in each project's README file ([server](server/README.md), [client](client/README.md)).
+You are provided with a simple application that consists of two projects. The server is a GraphQL API that returns a list of test questions. Questions can be either choice questions or text questions. Choice questions have a number of options, while text questions do not. You can see the full schema in [schema.graphqls](server/graph/schema.graphqls). The client is a React app that uses the API to fetch the questions and renders them as JSON. You can find the details in each project's README file ([server](server/README.md), [client](client/README.md)).
 
 Your task is to expand this app to not only show the questions, but let the user answer them and record the answers on the server. Questions are answered by selecting one of the options (for choice questions) or by entering text (for text questions). To do this, you need to change the GraphQL schema on the server, implement all resolvers and then implement the client UI. 
 
